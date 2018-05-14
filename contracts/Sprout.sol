@@ -31,10 +31,10 @@ contract ERC20Interface {
 }
  
 contract SproutToken is ERC20Interface {
-    string public constant symbol = "FIXED";
-    string public constant name = "Example Fixed Supply Token";
+    string public constant symbol = "SPROUT TOKEN";
+    string public constant name = "SPRTX";
     uint8 public constant decimals = 18;
-    uint256 _totalSupply = 1000000;
+    uint256 _totalSupply = 100000000;
     
     // Owner of this contract
     address public owner;

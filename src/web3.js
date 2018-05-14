@@ -2,7 +2,8 @@ import Web3 from 'web3';
 import contract from 'truffle-contract';
 import _ from 'lodash';
 
-const provider = new Web3.providers.HttpProvider('http://localhost:8545');
+//const provider = new Web3.providers.HttpProvider('http://localhost:8545');
+const provider = new Web3.providers.HttpProvider('http://localhost:22000');
 
 const web3 = new Web3(provider);
 export default web3;

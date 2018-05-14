@@ -70,7 +70,7 @@ class SupplyList extends Component {
             onChange= {e => this.setState({ accountNumber: e.target.value })}
             onKeyDown={this.changeAccount}
           />
-          <H3> Select Account </H3>
+          <H3> Select Source Producer </H3>
         </AccountContainer>
         </InnerBox>
         <TodoListContainer>
@@ -105,8 +105,8 @@ class SupplyList extends Component {
       eventItemin: [],
       addressArray: [],
       pastitem: '',
-      positive: 'in progress',
-      negative: 'checked out',
+      positive: 'in posession',
+      negative: 'shipped',
       todoItems: [],
       newItem: '',
       accountNumber: 0,
